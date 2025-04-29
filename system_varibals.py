@@ -8,9 +8,12 @@ malumotlar = {
     "why_valiteach":"",
 
 }
+from dotenv import load_dotenv
+import os
+
 
 # main vars
-TOKEN = "8092653472:AAE9bPhpgQWn1vw1_Zattl6eOhKjL9XBX2o"
+TOKEN = os.getenv("BOT_TOKEN")
 
 BRAND_NAME = "IT-Line"
 CHANNEL_ID = "-1002651153176"
